@@ -1,71 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QuLo5 Tracklist</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      color: #222;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      text-align: center;
-      padding: 20px;
-      background: #1e1e1e;
-      color: #fff;
-    }
-
-    #tracklist {
-      max-width: 600px;
-      margin: 30px auto;
-      padding: 20px;
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.25);
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    li {
-      margin: 10px 0;
-      font-size: 1rem;
-    }
-
-    li span {
-      font-size: 0.9rem;
-      color: #555;
-    }
-
-    @media (max-width: 480px) {
-      #tracklist {
-        margin: 20px;
-        padding: 15px;
-      }
-      li {
-        font-size: 0.95rem;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuLo5 Tracklist</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f7f7f7; color: #222; margin:0; padding:0; text-align:center; }
+  header { background:#1e1e1e; color:#fff; padding:20px; }
+  #tracklist { max-width:600px; margin:30px auto; padding:20px; background:#fff; border-radius:16px; box-shadow:0 0 20px rgba(0,0,0,0.25); }
+  ul { list-style:none; padding:0; margin:0; }
+  li { margin:10px 0; font-size:1rem; }
+  li span { font-size:0.9rem; color:#555; }
+  @media(max-width:480px){ #tracklist{margin:20px;padding:15px;} li{font-size:0.95rem;} }
+</style>
 </head>
 <body>
 
-  <header>
-    <h1>QuLo5 Tracklist</h1>
-  </header>
+<header>
+  <h1>QuLo5 Tracklist</h1>
+</header>
 
-  <div id="tracklist">
-    <p>Tracklist will appear here.</p>
-  </div>
+<div id="tracklist">
+  <p>Loading tracklist...</p>
+</div>
 
-  <script src="radiojar.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
